@@ -2752,6 +2752,16 @@
 		)
 		(uuid "2023fe6d-c2f6-4134-b45d-52dc31aaedec")
 	)
+	(label "PWR_OUT_BOTTON"
+		(at 205.74 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31fab182-7248-4d1e-86f3-a486fac4cb2b")
+	)
 	(label "3.3V"
 		(at 212.09 57.15 0)
 		(effects
@@ -2762,17 +2772,7 @@
 		)
 		(uuid "45808c90-cbc3-4c56-a640-6d681b649ea6")
 	)
-	(label "PWR_Output"
-		(at 205.74 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "463f934e-103a-433b-9a94-e2f3d57d2ae3")
-	)
-	(label "PWR_Output"
+	(label "PWR_OUT_TOP"
 		(at 208.28 60.96 0)
 		(effects
 			(font
@@ -2780,7 +2780,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4beb18fb-8269-432e-89eb-bc2f5d40dfbd")
+		(uuid "674129c1-2c32-47e0-8433-e3a17ff0bb30")
 	)
 	(label "5V"
 		(at 212.09 52.07 0)
