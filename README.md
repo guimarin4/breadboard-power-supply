@@ -57,12 +57,6 @@ Capacitors are used for input and output filtering, helping to reduce voltage fl
 
 The LM317 is an adjustable linear voltage regulator.
 
-Its output voltage is determined by two external resistors according to:
-
-\[
-V_{out} \approx 1.25\left(1+\frac{R_2}{R_1}\right)
-\]
-
 The resistor values are selected to obtain an output close to 3.3V.
 
 Unlike the LM7805, which provides a fixed voltage, the LM317 allows different output voltages by modifying the resistor network.
@@ -94,23 +88,6 @@ Each output selection network must remain electrically independent to prevent sh
 | Pin Headers | Output voltage selection |
 | Screw Terminals | External power connections |
 
-## Repository Structure
-
-```text
-breadboard-power-supply/
-│
-├── Breadboard_Power_Supply.kicad_pro
-├── Breadboard_Power_Supply.kicad_sch
-├── Breadboard_Power_Supply.kicad_pcb
-├── .gitignore
-└── README.md
-```
-
-### KiCad Files
-
-- **`.kicad_pro`** — Project configuration
-- **`.kicad_sch`** — Electrical schematic
-- **`.kicad_pcb`** — PCB layout
 
 ## How to Open the Project
 
@@ -128,12 +105,6 @@ breadboard-power-supply/
 ## Design Considerations
 
 Because the project uses linear voltage regulators, part of the input power is dissipated as heat.
-
-The approximate power dissipation is:
-
-\[
-P_D \approx (V_{in}-V_{out})I_{out}
-\]
 
 Thermal management, PCB layout, regulator operating limits, and component selection must be considered before hardware assembly.
 
